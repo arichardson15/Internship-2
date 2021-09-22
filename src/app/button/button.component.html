@@ -1,0 +1,8 @@
+<form [formGroup]="formData">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" formControlName="name"><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email"  formControlName="email">
+  <button class="btn" (click)="onClick()"> Submit</button>
+</form>
+
